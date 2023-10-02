@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  .left_container {
+    width: 40%;
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+    margin-top: 13rem;
+    .login_heading {
+      color: #404d78;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -1.6px;
+    }
+    .login_text {
+      color: #404d78;
+      font-family: Plus Jakarta Sans;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.72px;
+      margin-bottom: 3.625rem;
+    }
+    .ant-form-item-required {
+      color: #404d78;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.72px;
+    }
+    .ant-input-password {
+      color: #404d78;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.72px;
+    }
+    .ant-form-item-required::before {
+      display: none !important;
+    }
+    .ant-form-item-label {
+      padding-bottom: 0 !important;
+    }
+    .ant-input-password {
+      display: flex;
+      width: 430px;
+      height: 42px;
+      padding: 10px 16px;
+      align-items: center;
+      gap: 10px;
+      color: rgba(64, 77, 120, 0.5) !important;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.64px;
+      .ant-input-suffix {
+        display: none;
+      }
+    }
+
+    .ant-email {
+      .ant-input {
+        display: flex;
+        width: 430px;
+        height: 42px;
+        padding: 10px 16px;
+        align-items: center;
+        gap: 10px;
+        color: rgba(64, 77, 120, 0.5);
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.64px;
+      }
+    }
+    .ant-password {
+      margin-bottom: -5px !important;
+      ::before {
+        display: none;
+      }
+    }
+    .ant-form-item {
+      .ant-row {
+        .ant-col {
+          .ant-form-item-control-input {
+            // float: right;
+            width: 430px;
+            .ant-form-item-control-input-content {
+              .login_form_forgot {
+                float: right;
+                margin-top: 6px;
+                color: rgba(0, 0, 0, 0.5);
+                font-family: Plus Jakarta Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: -0.64px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .logButton {
+      display: flex;
+      width: 430px;
+      height: 45px;
+      padding: 10px 16px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 4px;
+      background: #003cff;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.64px;
+      margin-bottom: -10px;
+    }
+    .ant-form-item-control-input-content {
+      .register {
+        color: rgba(64, 77, 120, 0.5);
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.64px;
+        margin-top: 8px;
+        display: flex;
+        justify-content: center;
+        .r_link {
+          color: rgba(64, 77, 120, 0.5);
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: -0.64px;
+          text-decoration-line: underline;
+        }
+      }
+    }
+    .googleButton {
+      display: flex;
+      width: 430px;
+      height: 45px;
+      padding: 10px 16px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 4px;
+      border: 0.5px solid rgba(0, 0, 0, 0.5);
+      font-family: "Plus Jakarta Sans", sans-serif;
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.64px;
+    }
+  }
+
+  .right_container {
+    width: 60%;
+    .login_img {
+      width: 100%;
+      height: 100vh;
+    }
+  }
+}

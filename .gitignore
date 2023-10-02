@@ -1,0 +1,590 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+temgym/.DS_Store
+temgym/temgym/.DS_Store
+temgym/temgym/src/.DS_Store
+temgym copy/.DS_Store
+wa/wa/.DS_Store
+temgym copy.zip
+Screenshot 2022-03-30 at 12.19.05.png
+Error 404!/Dungeons.and.Dragons.Honor.Among.Thieves.(NKIRI.COM).2023.AMZN.WEBRip.DOWNLOADED.FROM.NKIRI.COM.mkv
+Error 404!/John.Wick.Chapter.4.(NKIRI.COM).2023.WEB-DL.DOWNLOADED.FROM.NKIRI.COM.mkv
+Error 404!/The.Mother.(NKIRI.COM).2023.WEBRip.DOWNLOADED.FROM.NKIRI.COM.mkv
+tomyriks/package.json
+lyriks_starter_code.zip
+Screenshot 2022-05-10 at 12.13.27.png
+Screenshot 2023-06-03 at 12.26.59.png
+Screenshot 2023-06-03 at 17.03.27.png
+Screenshot 2023-06-06 at 13.11.32.png
+Screenshot 2023-06-06 at 13.11.39.png
+Screenshot 2023-06-06 at 19.06.56.png
+Screenshot 2023-06-07 at 09.09.26.png
+Screenshot 2023-06-07 at 19.52.43.png
+Screenshot 2023-06-07 at 22.12.50.png
+Screenshot 2023-06-09 at 09.08.10.png
+Screenshot 2023-06-10 at 00.20.05.png
+Screenshot 2023-06-10 at 00.37.53.png
+Screenshot 2023-06-10 at 00.39.57.png
+Screenshot 2023-06-10 at 00.40.02.png
+Screenshot 2023-06-10 at 00.41.41.png
+Screenshot 2023-06-16 at 09.24.43.png
+Screenshot 2023-06-17 at 07.30.14.png
+Screenshot 2023-06-20 at 12.00.49.png
+Screenshot 2023-06-22 at 09.39.13.png
+Screenshot 2023-06-22 at 09.45.42.png
+Screenshot 2023-06-22 at 09.46.48.png
+Screenshot 2023-06-22 at 09.52.03.png
+Screenshot 2023-06-22 at 10.00.59.png
+Screenshot 2023-06-22 at 10.04.32.png
+Screenshot 2023-06-22 at 10.08.58.png
+Screenshot 2023-06-22 at 10.09.21.png
+Screenshot 2023-06-22 at 10.09.39.png
+Screenshot 2023-06-22 at 10.10.03.png
+Screenshot 2023-06-22 at 10.10.50.png
+Screenshot 2023-06-22 at 10.11.08.png
+Screenshot 2023-06-22 at 10.11.58.png
+Screenshot 2023-06-22 at 10.13.40.png
+Screenshot 2023-06-22 at 10.14.42.png
+Screenshot 2023-06-22 at 10.16.23.png
+Screenshot 2023-06-22 at 10.16.41.png
+Screenshot 2023-06-22 at 10.19.38.png
+Screenshot 2023-06-22 at 10.24.29.png
+Screenshot 2023-06-22 at 10.26.37.png
+Screenshot 2023-06-22 at 10.27.37.png
+Screenshot 2023-06-22 at 10.28.50.png
+Screenshot 2023-06-22 at 10.29.07.png
+Screenshot 2023-06-22 at 10.30.02.png
+Screenshot 2023-06-22 at 10.30.25.png
+Screenshot 2023-06-22 at 10.31.24.png
+Screenshot 2023-06-22 at 10.31.45.png
+Screenshot 2023-06-22 at 10.33.21.png
+Screenshot 2023-06-22 at 10.33.38.png
+Screenshot 2023-06-23 at 09.53.19.png
+Screenshot 2023-06-23 at 15.41.38.png
+Screenshot 2023-06-26 at 12.59.22.png
+Screenshot 2023-06-29 at 13.21.49.png
+Screenshot 2023-06-29 at 13.22.15.png
+Screenshot 2023-06-29 at 13.22.25.png
+Screenshot 2023-06-30 at 10.55.40.png
+Confidental/Interview Prep/Copy of Interview Questions (Behavioral _ Technical) - The Bank.docx
+Confidental/Interview Prep/Frontend Interview Experience (Unacademy) - Javascript and React JS Interview Questions.mp4
+Confidental/Interview Prep/JavaScript Interview Prep_ Functions, Closures, Currying.mp4
+Confidental/Interview Prep/Javascript Interview Questions ( 'this' Keyword ) - Output Based, Scope, Implicit Binding, etc.mp4
+Confidental/Interview Prep/Javascript Interview Questions ( map, filter and reduce ) - Polyfills and Output Based Questions (1).mp4
+Confidental/Interview Prep/Javascript Interview Questions ( map, filter and reduce ) - Polyfills and Output Based Questions.mp4
+Confidental/Interview Prep/Javascript Interview Questions ( Objects ) - Output Based, Destructuring, Object Referencing, etc.mp4
+Confidental/untitled folder/🔥 Build a REACT JS Portfolio Website Using Tailwind CSS - Get Hired!.mp4
+Confidental/untitled folder/Breathe & Relax App - JavaScript & CSS Animations.mp4
+Confidental/untitled folder/Build 5 Projects With HTML, CSS & JavaScript.mp4
+Confidental/untitled folder/Build a Complete Typescript React Fitness Application for Beginners _ Responsive.mp4
+Confidental/untitled folder/Build A RealTime Chat App With React & Appwrite Cloud.mp4
+Confidental/untitled folder/Build an Expense Tracker _ React Hooks & Context API.mp4
+Confidental/untitled folder/Build and Deploy a Better Spotify 2.0 Clone Music App with React 18! (Tailwind, Redux, RapidAPI).mp4
+Confidental/untitled folder/Build and Deploy a Modern YouTube Clone Application in React JS with Material UI 5 _ RapidAPI.mp4
+Confidental/untitled folder/Full Stack Spotify Clone_ Next 13.4, React, Stripe, Supabase, PostgreSQL, Tailwind (2023).mp4
+Confidental/untitled folder/JavaScript Drag & Drop Sortable List Project.mp4
+Confidental/untitled folder/Portfolio Website Tutorial – Frontend Development with HTML, CSS, JavaScript.mp4
+Confidental/untitled folder/React & Tailwind CSS Image Gallery.mp4
+Confidental/untitled folder 2/Angular Crash Course.mp4
+Confidental/untitled folder 2/Bootstrap 5 - First Look.mp4
+Confidental/untitled folder 2/Bootstrap 5 Crash Course _ Website Build & Deploy.mp4
+Confidental/untitled folder 2/Bootstrap Beginner Crash Course.mp4
+Confidental/untitled folder 2/Bootstrap CSS Framework - Full Course for Beginners.mp4
+Confidental/untitled folder 2/Git & GitHub Crash Course For Beginners.mp4
+Confidental/untitled folder 2/JavaScript Crash Course For Beginners.mp4
+Confidental/untitled folder 2/JavaScript DOM Crash Course - Part 1.mp4
+Confidental/untitled folder 2/JavaScript Higher Order Functions & Arrays.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [1] - Thread & Call Stack.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [2] - Execution Context.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [3} - Asynchronous JavaScript, Task Queue & Event Loop.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [4] - Memory Storage.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [5] - JavaScript Engine Overview.mp4
+Confidental/untitled folder 2/Learn JavaScript - Full Course for Beginners.mp4
+Confidental/untitled folder 2/Learn Tailwind CSS – Course for Beginners.mp4
+Confidental/untitled folder 2/Learn TypeScript - Full Course for Beginners.mp4
+Confidental/untitled folder 2/Learning CSS Flex Box Layout.mp4
+Confidental/untitled folder 2/Next.js 13 Crash Course _ App Directory, React Server Components & More.mp4
+Confidental/untitled folder 2/Next.js Crash Course.mp4
+Confidental/untitled folder 2/React JavaScript Framework for Beginners – Project-Based Course.mp4
+Confidental/untitled folder 2/React State Management – Intermediate JavaScript Course.mp4
+Confidental/untitled folder 2/React-Table Tutorial - Beginners Tutorial.mp4
+Confidental/untitled folder 2/Redux Tutorial - Beginner to Advanced.mp4
+Confidental/untitled folder 2/Tailwind Crash Course _ Project From Scratch.mp4
+Confidental/untitled folder 2/TypeScript Crash Course.mp4
+Confidental/untitled folder 2/Typescript for React Components From Beginners to Masters (1).mp4
+Confidental/untitled folder 2/Typescript for React Components From Beginners to Masters.mp4
+Confidental/untitled folder 2/Vite Crash Course _ Faster Alternative To CRA.mp4
+Confidental/untitled folder 2/Vue JS Crash Course.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [1] - Thread & Call Stack.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [2] - Execution Context.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [3} - Asynchronous JavaScript, Task Queue & Event Loop.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [4] - Memory Storage.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [5] - JavaScript Engine Overview.mp4
+Error 404!/About My Father (2023) (NetNaija.com).mkv
+Error 404!/Ambush.(NKIRI.COM).2023.BluRay.DOWNLOADED.FROM.NKIRI.COM.mkv
+Error 404!/Beautiful.Disaster.(NKIRI.COM).2023.WEBRip.DOWNLOADED.FROM.NKIRI.COM.mkv
+Error 404!/Black.Lotus.(NKIRI.COM).2023.AMZN.WEBRip.DOWNLOADED.FROM.NKIRI.COM.mkv
+Error 404!/BlackBerry (2023) (NetNaija.com).mkv
+Error 404!/Bliss.(NKIRI.COM).2021.Downloaded.from.NKIRI.COM.mkv
+Error 404!/Citadel.S01E01.(NKIRI.COM).mkv
+Error 404!/Citadel.S01E02.(NKIRI.COM).mkv
+Error 404!/Citadel.S01E03.(NKIRI.COM).mkv
+Error 404!/Citadel.S01E04.(NKIRI.COM).mkv
+Error 404!/Citadel.S01E05.(NKIRI.COM).mkv
+Error 404!/Citadel.S01E06.(NKIRI.COM).mkv
+Error 404!/Come Out Fighting (2023) (NetNaija.com).mkv
+Error 404!/Coyote.(NKIRI.COM).2023.AMZN.WEBRip.DOWNLOADED.FROM.NKIRI.COM.mkv
+Error 404!/Deep Water (2022) (NetNaija.com).mp4
+Error 404!/Evil Dead Rise (2023) (NetNaija.com).mkv
+Error 404!/Ex with Benefits.mp4
+Error 404!/Fast.X.(NKIRI.COM).2023.AMZN.WEBRip.DOWNLOADED.FROM.NKIRI.COM.mkv
+Error 404!/Guy.Ritchies.The.Covenant.(NKIRI.COM).2023.AMZN.WEBRip.DOWNLOADED.FROM.NKIRI.COM.mkv
+Error 404!/Honest.Thief.2020.480p.BluRay.x265.mkv
+Error 404!/Hypnotic (2023) (NetNaija.com).mkv
+Error 404!/Knights.of.the.Zodiac.(NKIRI.COM).2023.AMZN.WEBRip.DOWNLOADED.FROM.NKIRI.COM.mkv
+Error 404!/Last Seen Alive (2022) (NetNaija.com).mp4
+Error 404!/Medellin (2023) (NetNaija.com).mkv
+Error 404!/Medellin (2023) (NetNaija.com).srt
+Error 404!/Missing (2023) (NetNaija.com).mkv
+Error 404!/Old (2021) (NetNaija.com).mp4
+Error 404!/One Ranger (2023) (NetNaija.com).mkv
+Error 404!/Paint (2023) (NetNaija.com).mkv
+Error 404!/Peter Pan & Wendy (2023) (NetNaija.com).mkv
+Error 404!/Ride On (2023) (NetNaija.com).mp4
+Error 404!/Sharper (2023) (NetNaija.com).mkv
+Error 404!/Sheroes.(NKIRI.COM).2023.AMZN.WEBRip.DOWNLOADED.FROM.NKIRI.COM.mkv
+Error 404!/Silo.S01E01.(NKIRI.COM).mkv
+Error 404!/Silo.S01E02.(NKIRI.COM).mkv
+Error 404!/Silo.S01E03.(NKIRI.COM).mkv
+Error 404!/Silo.S01E04.(NKIRI.COM).mkv
+Error 404!/Silo.S01E05.(NKIRI.COM).mkv
+Error 404!/Silo.S01E06.(NKIRI.COM).mkv
+Error 404!/Silo.S01E07.(NKIRI.COM).mkv
+Error 404!/Silo.S01E08.(NKIRI.COM).mkv
+Error 404!/Silo.S01E09.(NKIRI.COM).mkv
+Error 404!/Silo.S01E10.(NKIRI.COM).mkv
+Error 404!/The Ritual Killer (2023) (NetNaija.com).mkv
+Error 404!/The.Popes.Exorcist.(NKIRI.COM).2023.WEBRip.DOWNLOADED.FROM.NKIRI.COM.mkv
+Error 404!/The.Witcher.S03E01.(NKIRI.COM).mkv
+Error 404!/The.Witcher.S03E02.(NKIRI.COM).mkv
+Error 404!/The.Witcher.S03E03.(NKIRI.COM).mkv
+Error 404!/The.Witcher.S03E04.(NKIRI.COM).mkv
+Error 404!/The.Witcher.S03E05.(NKIRI.COM).mkv
+Error 404!/Through My Window Across the Sea (2023) (NetNaija.com).mkv
+Error 404!/Through My Window Across the Sea (2023) (NetNaija.com).srt
+Error 404!/To.Catch.A.Killer.(NKIRI.COM).2023.AMZN.WEBRip.DOWNLOADED.FROM.NKIRI.COM.mkv
+Error 404!/Vanguard.2020.720p.HDRip.mkv
+Error 404!/White Men Can't Jump (2023) (NetNaija.com).mkv
+Confidental/untitled folder 2/JavaScript Under The Hood [1] - Thread & Call Stack.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [2] - Execution Context.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [3} - Asynchronous JavaScript, Task Queue & Event Loop.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [4] - Memory Storage.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [5] - JavaScript Engine Overview.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [1] - Thread & Call Stack.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [2] - Execution Context.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [3} - Asynchronous JavaScript, Task Queue & Event Loop.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [4] - Memory Storage.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [5] - JavaScript Engine Overview.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [1] - Thread & Call Stack.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [2] - Execution Context.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [3} - Asynchronous JavaScript, Task Queue & Event Loop.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [4] - Memory Storage.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [5] - JavaScript Engine Overview.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [1] - Thread & Call Stack.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [2] - Execution Context.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [3} - Asynchronous JavaScript, Task Queue & Event Loop.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [4] - Memory Storage.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [5] - JavaScript Engine Overview.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [1] - Thread & Call Stack.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [2] - Execution Context.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [3} - Asynchronous JavaScript, Task Queue & Event Loop.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [4] - Memory Storage.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [5] - JavaScript Engine Overview.mp4
+portfolio-app-react-main/package.json
+portfolio-app-react-main/postcss.config.js
+portfolio-app-react-main/tailwind.config.js
+portfolio-app-react-main/yarn.lock
+portfolio-app-react-main/public/favicon.ico
+portfolio-app-react-main/public/index.html
+portfolio-app-react-main/public/logo192.png
+portfolio-app-react-main/public/logo512.png
+portfolio-app-react-main/public/manifest.json
+portfolio-app-react-main/public/robots.txt
+portfolio-app-react-main/public/%PUBLIC_URL%/logo192.png
+portfolio-app-react-main/src/App.js
+portfolio-app-react-main/src/index.css
+portfolio-app-react-main/src/index.js
+portfolio-app-react-main/src/assets/aws.png
+portfolio-app-react-main/src/assets/css.png
+portfolio-app-react-main/src/assets/firebase.png
+portfolio-app-react-main/src/assets/github.png
+portfolio-app-react-main/src/assets/html.png
+portfolio-app-react-main/src/assets/javascript.png
+portfolio-app-react-main/src/assets/logo.png
+portfolio-app-react-main/src/assets/logo1.png
+portfolio-app-react-main/src/assets/mongo.png
+portfolio-app-react-main/src/assets/node.png
+portfolio-app-react-main/src/assets/react.png
+portfolio-app-react-main/src/assets/tailwind.png
+portfolio-app-react-main/src/assets/projects/realestate.jpg
+portfolio-app-react-main/src/assets/projects/workImg.jpeg
+portfolio-app-react-main/src/components/About.jsx
+portfolio-app-react-main/src/components/Contact.jsx
+portfolio-app-react-main/src/components/Home.jsx
+portfolio-app-react-main/src/components/Navbar.jsx
+portfolio-app-react-main/src/components/Skills.jsx
+portfolio-app-react-main/src/components/Work.jsx
+portfolio-app-react-main/src/data/data.js
+Task list/app.js
+Task list/index.html
+temgym/tem-gym/.eslintrc.cjs
+temgym/tem-gym/index.html
+temgym/tem-gym/package.json
+temgym/tem-gym/tsconfig.json
+temgym/tem-gym/tsconfig.node.json
+temgym/tem-gym/vite.config.ts
+temgym/tem-gym/public/vite.svg
+temgym/tem-gym/src/App.css
+temgym/tem-gym/src/App.tsx
+temgym/tem-gym/src/index.css
+temgym/tem-gym/src/main.tsx
+temgym/tem-gym/src/vite-env.d.ts
+temgym/tem-gym/src/assets/AbstractWaves.png
+temgym/tem-gym/src/assets/Arrow.png
+temgym/tem-gym/src/assets/BenefitsPageGraphic.png
+temgym/tem-gym/src/assets/Circles.png
+temgym/tem-gym/src/assets/ContactUsPageGraphic.png
+temgym/tem-gym/src/assets/EvolveText.png
+temgym/tem-gym/src/assets/HomePageGraphic.png
+temgym/tem-gym/src/assets/HomePageText.png
+temgym/tem-gym/src/assets/image1.png
+temgym/tem-gym/src/assets/image2.png
+temgym/tem-gym/src/assets/image3.png
+temgym/tem-gym/src/assets/image4.png
+temgym/tem-gym/src/assets/image5.png
+temgym/tem-gym/src/assets/image6.png
+temgym/tem-gym/src/assets/Logo.png
+temgym/tem-gym/src/assets/Sparkles.png
+temgym/tem-gym/src/assets/SponsorForbes.png
+temgym/tem-gym/src/assets/SponsorFortune.png
+temgym/tem-gym/src/assets/SponsorRedBull.png
+Confidental/untitled folder 2/JavaScript Under The Hood [1] - Thread & Call Stack.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [1] - Thread & Call Stack.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [5] - JavaScript Engine Overview.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [5] - JavaScript Engine Overview.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [4] - Memory Storage.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [1] - Thread & Call Stack.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [1] - Thread & Call Stack.mp4
+temgym/tem-gym/.eslintrc.cjs
+temgym/tem-gym/index.html
+temgym/tem-gym/package.json
+temgym/tem-gym/tsconfig.json
+temgym/tem-gym/tsconfig.node.json
+temgym/tem-gym/vite.config.ts
+temgym/tem-gym/public/vite.svg
+temgym/tem-gym/src/App.css
+temgym/tem-gym/src/App.tsx
+temgym/tem-gym/src/index.css
+temgym/tem-gym/src/main.tsx
+temgym/tem-gym/src/vite-env.d.ts
+temgym/tem-gym/src/assets/AbstractWaves.png
+temgym/tem-gym/src/assets/Arrow.png
+temgym/tem-gym/src/assets/BenefitsPageGraphic.png
+temgym/tem-gym/src/assets/Circles.png
+temgym/tem-gym/src/assets/ContactUsPageGraphic.png
+temgym/tem-gym/src/assets/EvolveText.png
+temgym/tem-gym/src/assets/HomePageGraphic.png
+temgym/tem-gym/src/assets/HomePageText.png
+temgym/tem-gym/src/assets/image1.png
+temgym/tem-gym/src/assets/image2.png
+temgym/tem-gym/src/assets/image3.png
+temgym/tem-gym/src/assets/image4.png
+temgym/tem-gym/src/assets/image5.png
+temgym/tem-gym/src/assets/image6.png
+temgym/tem-gym/src/assets/Logo.png
+temgym/tem-gym/src/assets/Sparkles.png
+temgym/tem-gym/src/assets/SponsorForbes.png
+temgym/tem-gym/src/assets/SponsorFortune.png
+temgym/tem-gym/src/assets/SponsorRedBull.png
+Screenshot 2023-06-30 at 17.15.13.png
+Screenshot 2023-07-03 at 19.53.16.png
+Screenshot 2023-07-03 at 19.56.55.png
+Screenshot 2023-07-04 at 10.34.12.png
+Screenshot 2023-07-04 at 10.55.45.png
+Screenshot 2023-07-04 at 10.56.35.png
+Screenshot 2023-07-04 at 11.36.46.png
+Screenshot 2023-07-06 at 18.37.23.png
+Screenshot 2023-07-06 at 18.38.26.png
+Screenshot 2023-07-06 at 18.39.12.png
+Screenshot 2023-07-07 at 18.57.23.png
+Screenshot 2023-07-08 at 08.13.58.png
+Screenshot 2023-07-08 at 16.35.41.png
+Screenshot 2023-07-08 at 21.40.45.png
+Screenshot 2023-07-10 at 16.38.48.png
+Screenshot 2023-07-11 at 21.58.04.png
+Screenshot 2023-07-12 at 03.49.38.png
+Screenshot 2023-07-12 at 03.59.06.png
+Screenshot 2023-07-16 at 21.45.52.png
+Screenshot 2023-07-17 at 22.19.28.png
+Screenshot 2023-07-17 at 22.20.10.png
+Screenshot 2023-07-20 at 10.04.06.png
+Screenshot 2023-07-21 at 10.47.29.png
+Screenshot 2023-07-26 at 10.13.28.png
+Screenshot 2023-07-26 at 17.07.45.png
+Screenshot 2023-07-26 at 18.14.52.png
+Screenshot 2023-07-30 at 04.17.28.png
+Screenshot 2023-08-01 at 13.40.05.png
+Screenshot 2023-08-01 at 15.58.54.png
+Screenshot 2023-08-01 at 16.00.57.png
+Screenshot 2023-08-01 at 16.20.14.png
+Screenshot 2023-08-02 at 15.38.38.png
+Screenshot 2023-08-02 at 17.29.59.png
+Screenshot 2023-08-02 at 17.52.33.png
+Screenshot 2023-08-02 at 17.56.20.png
+Screenshot 2023-08-02 at 19.08.39.png
+Screenshot 2023-08-02 at 19.55.33.png
+Screenshot 2023-08-02 at 21.06.55.png
+Screenshot 2023-08-03 at 08.37.34.png
+Screenshot 2023-08-03 at 08.38.06.png
+Screenshot 2023-08-08 at 21.02.03.png
+Screenshot 2023-08-09 at 08.36.28.png
+Screenshot 2023-08-09 at 08.36.53.png
+Screenshot 2023-08-09 at 08.37.31.png
+Screenshot 2023-08-10 at 11.21.00.png
+Screenshot 2023-08-10 at 16.01.38.png
+Screenshot 2023-08-13 at 04.42.15.png
+Screenshot 2023-08-13 at 18.54.51.png
+Screenshot 2023-08-14 at 15.00.48.png
+Screenshot 2023-08-16 at 07.39.56.png
+Screenshot 2023-08-17 at 10.43.00.png
+Screenshot 2023-08-17 at 11.34.28.png
+Screenshot 2023-08-17 at 11.34.44.png
+Screenshot 2023-08-20 at 22.10.17.png
+Screenshot 2023-08-20 at 22.25.32.png
+Screenshot 2023-08-20 at 22.25.46.png
+Screenshot 2023-08-21 at 19.58.40.png
+Screenshot 2023-08-23 at 09.46.41.png
+Screenshot 2023-08-23 at 16.46.19.png
+Screenshot 2023-08-27 at 15.43.32.png
+Screenshot 2023-08-27 at 16.06.01.png
+Screenshot 2023-08-27 at 17.36.51.png
+Screenshot 2023-08-27 at 17.51.22.png
+Screenshot 2023-08-28 at 06.51.37.png
+Screenshot 2023-08-28 at 10.20.40.png
+Screenshot 2023-08-28 at 10.21.47.png
+Screenshot 2023-08-29 at 11.02.32.png
+Screenshot 2023-08-29 at 11.28.23.png
+Screenshot 2023-08-29 at 21.32.47.png
+Screenshot 2023-08-31 at 10.36.40.png
+Screenshot 2023-09-04 at 12.05.28.png
+Screenshot 2023-09-04 at 12.10.34.png
+Screenshot 2023-09-05 at 14.09.49.png
+Screenshot 2023-09-07 at 09.09.24.png
+Screenshot 2023-09-07 at 09.09.28.png
+Screenshot 2023-09-07 at 09.10.30.png
+Screenshot 2023-09-07 at 09.10.56.png
+Screenshot 2023-09-07 at 09.11.04.png
+Screenshot 2023-09-07 at 11.00.20.png
+Screenshot 2023-09-07 at 11.00.24.png
+Screenshot 2023-09-07 at 11.04.24.png
+Screenshot 2023-09-07 at 11.07.40.png
+Screenshot 2023-09-07 at 11.16.47.png
+Screenshot 2023-09-07 at 15.15.48.png
+Screenshot 2023-09-07 at 15.15.56.png
+Screenshot 2023-09-07 at 19.27.21.png
+Screenshot 2023-09-07 at 19.27.47.png
+Screenshot 2023-09-08 at 10.08.31.png
+Screenshot 2023-09-08 at 11.02.55.png
+Screenshot 2023-09-08 at 11.33.53.png
+Screenshot 2023-09-11 at 11.36.12.png
+Screenshot 2023-09-11 at 11.36.37.png
+Screenshot 2023-09-11 at 11.36.54.png
+Screenshot 2023-09-11 at 11.37.18.png
+Screenshot 2023-09-11 at 11.38.16.png
+Screenshot 2023-09-11 at 16.26.43.png
+Screenshot 2023-09-11 at 16.28.59.png
+Screenshot 2023-09-11 at 16.36.41.png
+Screenshot 2023-09-12 at 13.46.10.png
+Screenshot 2023-09-13 at 16.57.45.png
+Screenshot 2023-09-13 at 17.05.40.png
+Screenshot 2023-09-13 at 17.59.25.png
+Screenshot 2023-09-13 at 18.27.17.png
+Screenshot 2023-09-13 at 18.43.12.png
+Screenshot 2023-09-14 at 09.01.01.png
+Screenshot 2023-09-14 at 09.01.08.png
+Screenshot 2023-09-15 at 09.36.58.png
+Screenshot 2023-09-15 at 11.46.37.png
+Screenshot 2023-09-15 at 11.46.52.png
+Screenshot 2023-09-15 at 11.47.02.png
+Screenshot 2023-09-15 at 11.50.42.png
+Screenshot 2023-09-17 at 17.03.47.png
+Screenshot 2023-09-19 at 14.12.55.png
+Screenshot 2023-09-19 at 15.21.04.png
+Screenshot 2023-09-19 at 18.59.39.png
+Screenshot 2023-09-20 at 08.45.04.png
+Screenshot 2023-09-20 at 08.45.21.png
+Screenshot 2023-09-20 at 09.22.35.png
+Screenshot 2023-09-20 at 11.41.07.png
+Screenshot 2023-09-20 at 11.47.26.png
+Screenshot 2023-09-21 at 11.24.14.png
+Screenshot 2023-09-21 at 12.40.02.png
+Screenshot 2023-09-21 at 13.28.50.png
+Screenshot 2023-09-21 at 16.02.48.png
+Screenshot 2023-09-21 at 16.03.21.png
+Screenshot 2023-09-21 at 16.07.36.png
+Screenshot 2023-09-21 at 16.07.50.png
+Screenshot 2023-09-21 at 23.29.03.png
+Screenshot 2023-09-22 at 15.13.52.png
+Screenshot 2023-09-22 at 15.14.09.png
+Screenshot 2023-09-22 at 15.27.09.png
+Screenshot 2023-09-28 at 08.01.13.png
+Screenshot 2023-09-28 at 10.51.11.png
+Screenshot 2023-09-28 at 10.51.20.png
+sd.png
+Confidental/untitled folder/Build a Keyword Extractor_ React + OpenAI API + Chakra UI (1).mp4
+Confidental/untitled folder/React JS - Building a Chat UI in 2020 - Session 1.mp4
+Confidental/untitled folder/React JS - Building a Chat UI in 2020 - Session 2.mp4
+Confidental/untitled folder/React JS - Building a Chat UI in 2020 - Session 3.mp4
+Confidental/untitled folder/React JS - Building a Chat UI in 2020 - Session 4.mp4
+Confidental/untitled folder/React JS - Building a Chat UI in 2020 - Session 5.mp4
+Confidental/untitled folder/React JS - Building a Chat UI in 2020 - Session 6.mp4
+Confidental/untitled folder/React JS - Building a Chat UI in 2020 - Session 7.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [1] - Thread & Call Stack.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [2] - Execution Context.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [3} - Asynchronous JavaScript, Task Queue & Event Loop.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [4] - Memory Storage.mp4
+Confidental/untitled folder 2/JavaScript Under The Hood [5] - JavaScript Engine Overview.mp4
+Confidental/untitled folder 2/Modern JavaScript From The Beginning _ First 12 Hours.mp4
+Confidental/untitled folder 2/Styled Components Crash Course & Project.mp4
+Error 404!/Catfish Murder (2023) (NetNaija.com).mp4
+Error 404!/Who Is Erin Carter S01E01 (NetNaija.com).mkv
+Error 404!/Who Is Erin Carter S01E02 (NetNaija.com).mkv
+Error 404!/Who Is Erin Carter S01E03 (NetNaija.com).mkv
+Error 404!/Who Is Erin Carter S01E04 (NetNaija.com).mkv
+Error 404!/Who Is Erin Carter S01E05 (NetNaija.com).mkv
+Error 404!/Who Is Erin Carter S01E06 (NetNaija.com).mkv
+Error 404!/Who Is Erin Carter S01E07 (NetNaija.com).mkv
+js_sandbox/5/app.js
+portfolio-app-react-main/src/components/test.jsx
+portfolio-app-react-main/src/pages/projects.jsx
+portfolio-app-react-main/src/routes/AppRoutes.jsx
+temgym/tem-gym/.eslintrc.cjs
+temgym/tem-gym/index.html
+temgym/tem-gym/package.json
+temgym/tem-gym/tsconfig.json
+temgym/tem-gym/tsconfig.node.json
+temgym/tem-gym/vite.config.ts
+temgym/tem-gym/public/vite.svg
+temgym/tem-gym/src/App.css
+temgym/tem-gym/src/App.tsx
+temgym/tem-gym/src/index.css
+temgym/tem-gym/src/main.tsx
+temgym/tem-gym/src/vite-env.d.ts
+temgym/tem-gym/src/assets/AbstractWaves.png
+temgym/tem-gym/src/assets/Arrow.png
+temgym/tem-gym/src/assets/BenefitsPageGraphic.png
+temgym/tem-gym/src/assets/Circles.png
+temgym/tem-gym/src/assets/ContactUsPageGraphic.png
+temgym/tem-gym/src/assets/EvolveText.png
+temgym/tem-gym/src/assets/HomePageGraphic.png
+temgym/tem-gym/src/assets/HomePageText.png
+temgym/tem-gym/src/assets/image1.png
+temgym/tem-gym/src/assets/image2.png
+temgym/tem-gym/src/assets/image3.png
+temgym/tem-gym/src/assets/image4.png
+temgym/tem-gym/src/assets/image5.png
+temgym/tem-gym/src/assets/image6.png
+temgym/tem-gym/src/assets/Logo.png
+temgym/tem-gym/src/assets/Sparkles.png
+temgym/tem-gym/src/assets/SponsorForbes.png
+temgym/tem-gym/src/assets/SponsorFortune.png
+temgym/tem-gym/src/assets/SponsorRedBull.png
+tomyriks/.env.example
+tomyriks/.eslintrc.js
+tomyriks/index.html
+tomyriks/postcss.config.js
+tomyriks/README.md
+tomyriks/tailwind.config.js
+tomyriks/vite.config.js
+tomyriks/src/App.jsx
+tomyriks/src/index.css
+tomyriks/src/index.jsx
+tomyriks/src/assets/constants.js
+tomyriks/src/assets/favicon.ico
+tomyriks/src/assets/index.js
+tomyriks/src/assets/loader.svg
+tomyriks/src/assets/logo.svg
+.Screenshot 2022-03-18 at 11.30.15.png.icloud
+.Screenshot 2022-03-19 at 22.05.10.png.icloud
+.Screenshot 2022-03-27 at 17.10.44.png.icloud
+.Screenshot 2022-03-30 at 09.56.03.png.icloud
+.Screenshot 2022-03-30 at 12.19.05.png.icloud
+.Screenshot 2022-04-01 at 15.19.01.png.icloud
+.Screenshot 2022-04-13 at 00.18.21.png.icloud
+.Screenshot 2022-04-27 at 12.26.29.png.icloud
+.Screenshot 2022-04-27 at 17.19.13.png.icloud
+.Screenshot 2022-05-03 at 19.10.30.png.icloud
+.Screenshot 2022-05-03 at 19.22.19.png.icloud
+.Screenshot 2022-05-09 at 15.13.36.png.icloud
+.Screenshot 2022-05-10 at 11.55.08.png.icloud
+.Screenshot 2022-05-10 at 12.03.22.png.icloud
+.Screenshot 2022-05-10 at 12.13.27.png.icloud
+.Screenshot 2022-05-16 at 21.01.08.png.icloud
+IMG_8820.jpg
+package-lock.json
+BS/BS4_TECH/img/logo.png_files/.52.js.icloud
+chatlist/.DS_Store
+github-finder 2/.DS_Store
+github-finder 2/src/.DS_Store
+github-finder 2/src/components/.DS_Store
+react-hook-sandbox/.DS_Store
+tomyriks/src/components/ArtistCard.jsx
+tomyriks/src/components/DetailsHeader.jsx
+tomyriks/src/components/Error.jsx
+tomyriks/src/components/index.js
+tomyriks/src/components/Loader.jsx
+tomyriks/src/components/PlayPause.jsx
+tomyriks/src/components/RelatedSongs.jsx
+tomyriks/src/components/Searchbar.jsx
+tomyriks/src/components/Sidebar.jsx
+tomyriks/src/components/SongBar.jsx
+tomyriks/src/components/SongCard.jsx
+tomyriks/src/components/TopPlay.jsx
+tomyriks/src/components/MusicPlayer/Controls.jsx
+tomyriks/src/components/MusicPlayer/index.jsx
+tomyriks/src/components/MusicPlayer/Player.jsx
+tomyriks/src/components/MusicPlayer/Seekbar.jsx
+tomyriks/src/components/MusicPlayer/Track.jsx
+tomyriks/src/components/MusicPlayer/VolumeBar.jsx
+tomyriks/src/pages/AroundYou.jsx
+tomyriks/src/pages/ArtistDetails.jsx
+tomyriks/src/pages/Discover.jsx
+tomyriks/src/pages/index.js
+tomyriks/src/pages/Search.jsx
+tomyriks/src/pages/SongDetails.jsx
+tomyriks/src/pages/TopArtists.jsx
+tomyriks/src/pages/TopCharts.jsx
+tomyriks/src/redux/store.js
+tomyriks/src/redux/features/playerSlice.js
+tomyriks/src/redux/services/shazamCore.js
