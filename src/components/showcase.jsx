@@ -29,7 +29,7 @@ const ShowCase = () => {
             variants={{
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
-            }} className="text-4xl  font-bold tracking-tight text-gray-900 sm:text-6xl">
+            }} className="text-4xl  font-bold tracking-tight text-gray-900 sm:text-5xl">
             Revolutionary platform designed to develop the next billion workforce.
           </motion.h1>
           <motion.p initial="hidden"
