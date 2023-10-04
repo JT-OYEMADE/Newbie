@@ -4,6 +4,7 @@ import ShowCase from "../components/showcase";
 import Meet from "../components/meet";
 import Course from "../components/course";
 import Opportunity from "../components/opportunity";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Meet />
       <Course />
       <Opportunity />
+      <Footer />
     </div>
   )
 }

@@ -5,23 +5,23 @@ import { motion } from 'framer-motion';
 const Opportunity = () => {
   return (
     <div className="relative isolate px-6 lg:px-8">
-      <div className="text-left flex justify-center  flex-row lg:flex-row xs:flex-col gap-[64px] items-center mx-auto max-w-[65rem] py-28 sm:py-48 lg:py-28">
+      <div className="text-left flex justify-center  xl:flex-row xs:flex-col gap-[64px] items-center mx-auto max-w-[65rem] py-28 sm:py-48 lg:py-28">
         <motion.div initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: false, amount: 0.5 }}
           transition={{ delay: 1.6, duration: 0.5 }}
           variants={{
             hidden: { opacity: 0, x: -50 },
             visible: { opacity: 1, x: 0 },
-          }} className="p-[55px] bg-[#F9FBFF] rounded-xl">
-          <img src={Task} alt="careers" className=' shadow-lg rounded-xl' />
+          }} className="p-[55px] bg-[#013CFD1A] rounded-xl xs:order-1 xl:order-none">
+          <img src={Task} alt="careers" className=' shadow-lg rounded-xl ' />
         </motion.div>
 
-        <div className='max-w-[25rem]'>
+        <div className='max-w-[25rem] xs:order-none xl:order-1'>
           <motion.div
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
+            viewport={{ once: false, amount: 0.5 }}
             transition={{ delay: 0.4, duration: 1.5 }}
             variants={{
               hidden: { opacity: 0, y: 50 },

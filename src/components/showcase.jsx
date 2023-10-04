@@ -25,7 +25,7 @@ const ShowCase = () => {
           <motion.h1 initial="hidden"
             whileInView="visible"
             viewport={{ once: false, amount: 0.5 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 1.5 }}
             variants={{
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
@@ -35,7 +35,7 @@ const ShowCase = () => {
           <motion.p initial="hidden"
             whileInView="visible"
             viewport={{ once: false, amount: 0.5 }}
-            transition={{ delay: 0.2, duration: 0.5 }}
+            transition={{ delay: 0.2, duration: 1 }}
             variants={{
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
@@ -45,7 +45,7 @@ const ShowCase = () => {
           <motion.div initial="hidden"
             whileInView="visible"
             viewport={{ once: false, amount: 0.5 }}
-            transition={{ delay: 0.4, duration: 0.5 }}
+            transition={{ delay: 0.4, duration: 1 }}
             variants={{
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
@@ -68,7 +68,7 @@ const ShowCase = () => {
           <motion.div initial="hidden"
             whileInView="visible"
             viewport={{ once: false, amount: 0.5 }}
-            transition={{ delay: 0, duration: 0.5 }}
+            transition={{ delay: 0, duration: 1 }}
             variants={{
               hidden: { opacity: 1, y: 50 },
               visible: { opacity: 1, y: 0 },
