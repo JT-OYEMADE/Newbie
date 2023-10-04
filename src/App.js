@@ -1,6 +1,6 @@
 
 import Home from "./pages";
-import Login from "./pages/Login/login";
+// import Login from "./pages/Login/login";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Mentor from "./pages/waitlist/mentor";

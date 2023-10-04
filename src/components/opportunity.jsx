@@ -8,7 +8,7 @@ const Opportunity = () => {
       <div className="text-left flex justify-center  flex-row lg:flex-row xs:flex-col gap-[64px] items-center mx-auto max-w-[65rem] py-28 sm:py-48 lg:py-28">
         <motion.div initial="hidden"
           whileInView="visible"
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.5 }}
           transition={{ delay: 1.6, duration: 0.5 }}
           variants={{
             hidden: { opacity: 0, x: -50 },
@@ -21,7 +21,7 @@ const Opportunity = () => {
           <motion.div
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: false, amount: 0.5 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{ delay: 0.4, duration: 1.5 }}
             variants={{
               hidden: { opacity: 0, y: 50 },

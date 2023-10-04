@@ -14,7 +14,7 @@ const navigation = [
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <header className="boxNav fixed top-0 z-30 w-full bg-white py-3">
+    <header className="fixed top-0 z-30 w-full xs:w-screen bg-white py-3 p-0 m-0">
       <nav
         className="flex items-center justify-between mx-auto w-10/12"
         aria-label="Global"
@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-full p-2 text-white   bg-newbieBlue"
+            className="m-0 inline-flex items-center justify-center rounded-full p-2 text-white bg-newbieBlue"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -84,15 +84,13 @@ const Navbar = () => {
         </Dialog.Panel>
       </Dialog> */}
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-        <div className="fixed inset-0 z-50" />
+        {/* <div className="fixed inset-0 z-50" /> */}
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
-              <Logo />
-            </a>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className=" -m-2.5 rounded-md p-2.5 text-gray-700"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
