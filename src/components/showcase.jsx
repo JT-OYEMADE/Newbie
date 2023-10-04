@@ -73,7 +73,7 @@ const ShowCase = () => {
               hidden: { opacity: 1, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}>
-            <img src={ShowImg} className='rounded-[16px] shadow-lg mt-[61px] xl:mt-[100px]' alt="" />
+            <img src={ShowImg} className='rounded-[16px] shadow-lg mt-[31px] xl:mt-[100px]' alt="" />
           </motion.div>
         </div>
       </div>
