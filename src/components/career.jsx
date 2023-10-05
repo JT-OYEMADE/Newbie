@@ -23,7 +23,7 @@ const Career = () => {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="text-base font-medium mb-4 text-[#000]"
+            className="text-base font-medium md:mb-4 xs:mb-2 text-[#000]"
           >
             FIND CAREER OPPORTUNITIES
           </motion.p>
@@ -43,7 +43,7 @@ const Career = () => {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}
-            className="text-[20px] tracking-[-0.8] mb-4 font-normal text-[#00000080;]"
+            className="lg:text-[20px] xs:text-[15px] tracking-[-0.8] xs:mb-1 lg:mb-4 font-normal text-[#00000080;]"
           >
             Find Your Perfect Career Opportunity Now! Effortlessly browse and apply for jobs that match your skills and aspirations.
           </motion.p>
@@ -55,7 +55,7 @@ const Career = () => {
           variants={{
             hidden: { opacity: 0, x: 50 },
             visible: { opacity: 1, x: 0 },
-          }} className="p-[55px] bg-[#013CFD1A] rounded-xl">
+          }} className="md:p-[55px] xs:p-[20px] bg-[#013CFD1A] rounded-xl">
           <img src={Job} alt="careers" className="shadow-lg rounded-xl" />
         </motion.div>
       </div>

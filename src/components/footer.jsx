@@ -13,12 +13,12 @@ const Footer = () => {
     navigate('/')
   };
   return (
-    <footer className='bg-[#003CFF] text-white lg:mt-[21rem] mx-auto '>
+    <footer className='bg-[#003CFF] text-white lg:mt-[12rem] mx-auto '>
       <div className=' pt-[50px] lg:pt-[117px] text-center'>
         <h1 className=' lg:text-5xl text-[28px] lg:px-[6rem]  xl:px-[19rem] font-semibold'>Revolutionary platform designed to develop the next billion workforce.</h1>
         <p className=' text-xs md:text-2xl  font-normal my-8'>We are building the next generation workforce.</p>
         <Link
-          to='/waitlist'
+          to='/'
           className="rounded-[24px] bg-white py-2.5 px-8 text-sm font-semibold text-[#003CFF] shadow-sm  "
           onClick={buttonRoute}
         >
