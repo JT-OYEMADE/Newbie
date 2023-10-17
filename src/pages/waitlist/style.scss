@@ -1,0 +1,493 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wait-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  // overflow: hidden;
+
+  .wait-form {
+    padding: 0 40px;
+    width: 50%;
+
+    .wait-heading {
+      color: #111;
+      font-family: Plus Jakarta Sans;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-top: 50px;
+      margin-bottom: 10px;
+    }
+
+    .wait-p {
+      width: 550px;
+      color: var(--Black, #000);
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      /* 27px */
+    }
+
+    .wait-text {
+      color: var(--Black, #000);
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .wait-tab {
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
+      margin-bottom: 30px;
+
+      .fpSubMainDataTab.active {
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        color: var(--Primary, #0A6CFF);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 12px;
+        background: rgba(10, 108, 255, 0.10);
+        cursor: pointer;
+
+        svg {
+
+          // fill:#0A6CFF;
+          path {
+            stroke: #0A6CFF
+          }
+        }
+      }
+
+      .fpSubMainAirtimeTab {
+        cursor: pointer;
+
+        display: flex;
+        height: 50px;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        border-radius: 12px;
+        background: rgba(0, 0, 0, 0.05);
+        color: rgba(0, 0, 0, 0.80);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+      }
+
+
+
+    }
+
+    .form-container {
+      .ant-form-item {
+        margin-bottom: 16px !important;
+
+        .ant-row {
+          .ant-col {
+            padding: 0;
+
+            .ant-form-item-required {
+              color: var(--Black, #000);
+              font-family: Inter;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+
+
+            }
+
+            .ant-form-item-required::before {
+              display: none !important;
+            }
+
+            .ant-form-item-control-input {
+              .ant-form-item-control-input-content {
+                .ant-input {
+                  display: flex;
+                  // width: 327px;
+                  height: 44px;
+                  padding: 12px 10px;
+                  align-items: center;
+                  gap: 10px;
+                  border-radius: 12px;
+                  // border: 0.5px solid rgba(0, 0, 0, 0.50);
+                }
+              }
+            }
+
+            .ant-form-item-control-input {
+
+              // width: 306.5px;
+
+              height: 44px;
+              // padding: 12px 10px;
+              // align-items: center;
+              // gap: 10px;
+
+              .ant-form-item-control-input-content {
+                width: 307px;
+                height: 44px;
+                // border-radius: 12px !important;
+                border: rgba(0, 0, 0, 0.50);
+
+
+                .ant-input-number {
+                  width: 307px;
+
+                  height: 44px;
+                  border-radius: 12px !important;
+
+                  .ant-input-number-input {
+                    height: 44px;
+
+                  }
+                }
+
+                .ant-input-number-handler-wrap {
+                  border-radius: 12px !important;
+
+                }
+              }
+            }
+
+          }
+        }
+      }
+
+      .ant-form-phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5px !important;
+        border-radius: 12px !important;
+
+
+        .ant-form-item-phone {
+          color: var(--Black, #000);
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          // margin-bottom: 5px;
+          height: 25px;
+          border-radius: 12px !important;
+
+        }
+
+        .form-control {
+          display: flex;
+          width: 307px;
+          height: 44px;
+          align-items: center;
+          border-radius: 12px !important;
+
+        }
+
+        .flag-dropdown,
+        .selected-flag {
+          border-radius: 12px 0 0 12px !important;
+
+        }
+      }
+    }
+  }
+
+  .wait-pic {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+
+    .pics {
+      height: 100%;
+      width: 100%;
+    }
+
+    .cancel {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      cursor: pointer;
+    }
+
+
+  }
+
+  .cancel1 {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1250px) {
+  .wait-container {
+    display: block !important;
+    width: 100vw !important;
+
+    .cancel1 {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+      display: block !important;
+    }
+
+  }
+
+  .wait-form {
+    position: relative !important;
+    width: 100vw !important;
+    padding: 0 100px;
+
+    .wait-heading {
+      font-size: 35px !important;
+      margin-top: 80px !important;
+
+    }
+
+    .wait-p {
+      width: 350px !important;
+      // width: 100%;
+      font-size: 14px !important;
+    }
+
+    .wait-text {
+      font-size: 16px !important;
+    }
+
+    .form-container {
+      margin-bottom: 12px !important;
+
+      .ant-form-item {}
+
+      .ant-form-item-control-input {
+        .ant-form-item-control-input-content {
+          .ant-input-number {
+            max-width: 1250px !important;
+            width: 100% !important;
+          }
+        }
+      }
+    }
+
+    .ant-form-phone {
+      .form-control {
+        max-width: 1250px !important;
+        width: 100% !important;
+      }
+    }
+
+    button {
+      margin-bottom: 30px !important;
+      max-width: 1250px !important;
+      width: 100% !important;
+    }
+  }
+
+  .wait-pic {
+    display: none !important;
+
+    .pics {
+      display: none;
+    }
+
+    .cancel {
+      position: absolute !important;
+      top: 10px;
+      right: 10px;
+    }
+
+  }
+}
+
+@media (max-width: 799px) {
+  .wait-container {
+    display: block !important;
+    width: 100vw !important;
+
+    .cancel1 {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+      display: block !important;
+    }
+
+  }
+
+  .wait-form {
+    position: relative !important;
+    width: 100vw !important;
+    // padding: 0 40px !important;
+
+    .wait-heading {
+      font-size: 35px !important;
+      margin-top: 80px !important;
+
+    }
+
+    .wait-p {
+      width: 350px !important;
+      // width: 100%;
+      font-size: 14px !important;
+    }
+
+    .wait-text {
+      font-size: 16px !important;
+    }
+
+    .form-container {
+      margin-bottom: 12px !important;
+
+      .ant-form-item {}
+
+      .ant-form-item-control-input {
+        .ant-form-item-control-input-content {
+          .ant-input-number {
+            max-width: 799px !important;
+            width: 100% !important;
+          }
+        }
+      }
+    }
+
+    .ant-form-phone {
+      .form-control {
+        max-width: 799px !important;
+        width: 100% !important;
+      }
+    }
+
+    button {
+      margin-bottom: 30px !important;
+      max-width: 799px !important;
+      width: 100% !important;
+    }
+  }
+
+  .wait-pic {
+    display: none !important;
+
+    .pics {
+      display: none;
+    }
+
+    .cancel {
+      position: absolute !important;
+      top: 10px;
+      right: 10px;
+    }
+
+  }
+}
+
+@media (max-width: 399px) {
+
+  .wait-container {
+    display: block !important;
+    width: 100vw !important;
+
+    .cancel1 {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+      display: block !important;
+    }
+
+  }
+
+  .wait-form {
+    position: relative !important;
+    width: 100vw !important;
+    padding: 0 20px !important;
+
+    .wait-heading {
+      font-size: 28px !important;
+      width: 300px !important;
+      margin-top: 80px !important;
+
+    }
+
+    .wait-p {
+      width: 300px !important;
+      font-size: 13px !important;
+    }
+
+    .wait-text {
+      font-size: 14px !important;
+    }
+
+    .form-container {
+      margin-bottom: 12px !important;
+
+      .ant-form-item {}
+
+      .ant-form-item-control-input {
+        .ant-form-item-control-input-content {
+          .ant-input-number {
+            max-width: 399px !important;
+            width: 100% !important;
+          }
+        }
+      }
+    }
+
+    .ant-form-phone {
+      .form-control {
+        max-width: 399px !important;
+        width: 100% !important;
+      }
+    }
+
+    button {
+      margin-bottom: 30px !important;
+      max-width: 399px !important;
+      width: 100% !important;
+    }
+  }
+
+  .wait-pic {
+    display: none !important;
+
+    .pics {
+      display: none;
+    }
+
+    .cancel {
+      position: absolute !important;
+      top: 10px;
+      right: 10px;
+    }
+
+  }
+
+
+
+}

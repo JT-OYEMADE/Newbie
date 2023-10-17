@@ -59,7 +59,7 @@ const ShowCase = () => {
               visible: { opacity: 1, y: 0 },
             }} className="mt-8 flex lg:flex-row xs:flex-col items-center justify-center gap-y-4 gap-x-6">
             <Link
-              to='/'
+              to='/waitlist'
               className="rounded-[24px] bg-[#003CFF] border border-[#003CFF] py-2.5 px-8 text-sm font-semibold text-white shadow-sm lg:w-auto w-full"
               onClick={buttonRoute}
             >
