@@ -5,6 +5,7 @@
 }
 
 .wait-container {
+  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -28,7 +29,7 @@
     .wait-p {
       width: 550px;
       color: var(--Black, #000);
-      font-family: Inter;
+      font-family: 'Inter', sans-serif;
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
@@ -38,7 +39,7 @@
 
     .wait-text {
       color: var(--Black, #000);
-      font-family: Inter;
+      font-family: 'Inter', sans-serif;
       font-size: 16px;
       font-style: normal;
       font-weight: 400;
@@ -62,7 +63,7 @@
         align-items: center;
         gap: 12px;
         color: var(--Primary, #0A6CFF);
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
@@ -92,7 +93,7 @@
         border-radius: 12px;
         background: rgba(0, 0, 0, 0.05);
         color: rgba(0, 0, 0, 0.80);
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 600;
@@ -114,7 +115,7 @@
 
             .ant-form-item-required {
               color: var(--Black, #000);
-              font-family: Inter;
+              font-family: 'Inter', sans-serif;
               font-size: 16px;
               font-style: normal;
               font-weight: 400;
@@ -191,7 +192,7 @@
 
         .ant-form-item-phone {
           color: var(--Black, #000);
-          font-family: Inter;
+          font-family: 'Inter', sans-serif;
           font-size: 16px;
           font-style: normal;
           font-weight: 400;
@@ -412,6 +413,7 @@
   .wait-container {
     display: block !important;
     width: 100vw !important;
+    overflow: hidden !important;
 
     .cancel1 {
       position: absolute;
