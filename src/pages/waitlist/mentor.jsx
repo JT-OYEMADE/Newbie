@@ -151,7 +151,7 @@ const Mentor = () => {
           </Link>
         </div>
         <form onSubmit={onSubmit}>
-          <div className="p-0 grid xl:grid-cols-2 grid-cols-1 grid-row-1 gap-x-[26px]  form-container">
+          <div className="p-0 grid xl:grid-cols-2 grid-row-1 gap-x-[26px]  form-container">
             <Form.Item
               className=""
               name="First_Name"
