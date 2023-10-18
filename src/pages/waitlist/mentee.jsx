@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Form, Input } from 'antd';
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
@@ -23,6 +23,13 @@ const Mentee = () => {
     Expertise: '',
     Job: '',
   });
+
+  useEffect(() => {
+    setFormValues({
+      ...formValues,
+      Phone_Number: '+234', // +234 is the country code for Nigeria
+    });
+  }, [formValues]);
 
   const handleInputChange = (fieldName, value) => {
     setFormValues({ ...formValues, [fieldName]: value });
@@ -175,6 +182,7 @@ const Mentee = () => {
                   required: true,
                   // autoFocus: true,
                 }}
+                country={'NG'}
                 value={formValues.Phone_Number}
                 onChange={(value) => handleInputChange('Phone_Number', value)}
               />

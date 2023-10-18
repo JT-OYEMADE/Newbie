@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Form, Input, InputNumber } from 'antd';
 import PhoneInput from 'react-phone-input-2';
 import 'react-phone-input-2/lib/style.css';
@@ -25,6 +25,13 @@ const Mentor = () => {
     Job: '',
     Company_Name: '',
   });
+
+  useEffect(() => {
+    setFormValues({
+      ...formValues,
+      Phone_Number: '+234', // +234 is the country code for Nigeria
+    });
+  }, [formValues]);
 
 
   const generateTabClassName = (button) => {
@@ -206,6 +213,7 @@ const Mentor = () => {
                   required: true,
                   // autoFocus: true,
                 }}
+                country={'NG'}
                 value={formValues.Phone_Number}
                 onChange={(value) => handleInputChange('Phone_Number', value)}
               />
