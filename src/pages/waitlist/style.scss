@@ -412,8 +412,9 @@
 
   .wait-container {
     display: block !important;
-    width: 100vw !important;
+    width: 100% !important;
     overflow-x: hidden !important;
+
 
     .cancel1 {
       position: absolute;
