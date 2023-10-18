@@ -204,7 +204,7 @@ const Mentor = () => {
                 inputProps={{
                   name: "Phone_Number",
                   required: true,
-                  autoFocus: true,
+                  // autoFocus: true,
                 }}
                 value={formValues.Phone_Number}
                 onChange={(value) => handleInputChange('Phone_Number', value)}
