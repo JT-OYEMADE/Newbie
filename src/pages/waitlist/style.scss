@@ -462,6 +462,7 @@
           }
 
           .ant-input-number {
+
             max-width: 399px !important;
             width: 100% !important;
           }
@@ -471,6 +472,7 @@
 
     .ant-form-phone {
       .form-control {
+        display: none !important;
         max-width: 399px !important;
         width: 100% !important;
       }
