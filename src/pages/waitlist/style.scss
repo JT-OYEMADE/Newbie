@@ -447,13 +447,18 @@
     }
 
     .form-container {
-      display: none !important;
+      // display: none !important;
       margin-bottom: 12px !important;
 
       .ant-form-item {}
 
       .ant-form-item-control-input {
         .ant-form-item-control-input-content {
+          .ant-input {
+            max-width: 399px !important;
+            width: 100% !important;
+          }
+
           .ant-input-number {
             max-width: 399px !important;
             width: 100% !important;
