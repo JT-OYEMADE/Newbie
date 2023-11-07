@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState, useEffect } from 'react'
 import { Form, Input } from 'antd';
 import PhoneInput from 'react-phone-input-2'
@@ -29,7 +28,7 @@ const Mentee = () => {
       ...formValues,
       Phone_Number: '+234', // +234 is the country code for Nigeria
     });
-  }, [formValues]);
+  }, []);
 
   const handleInputChange = (fieldName, value) => {
     setFormValues({ ...formValues, [fieldName]: value });
@@ -40,7 +39,7 @@ const Mentee = () => {
 
     setLoading(true);
 
-    const googleSheetsURL = 'https://script.google.com/macros/s/AKfycbyBqdI8ChZC-4ltmuHvbUiF4cfrTvRle2qac-YdZ-LYRhSuHwBNHdaxtHvATuClp1RE/exec';
+    const googleSheetsURL = 'https://script.google.com/macros/s/AKfycbyMl5avM6mkR5PuoEGi0XxrGuJBlJmvvJdgpX1XZoO7AnGmDVA5ylb6MHJhBSG3n2tx/exec';
     const formData = new FormData();
 
     // Append form values to formData
